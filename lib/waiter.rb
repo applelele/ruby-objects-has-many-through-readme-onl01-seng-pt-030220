@@ -41,5 +41,4 @@ class Waiter
   end
 
 
-
 end
