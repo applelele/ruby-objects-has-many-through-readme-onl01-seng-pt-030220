@@ -34,6 +34,12 @@ class Waiter
     best_tipped_meal.customer
   end
 
-  
+  def most_frequent_customer
+    meals.sort do |meal_a, meal_b|
+      meal_a.customer <=> meal_b.customer
+    end# abstruct the same attribute
+  end
+
+
 
 end
